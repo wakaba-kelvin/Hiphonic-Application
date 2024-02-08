@@ -1,0 +1,20 @@
+.main-right-content{
+    display: flex;
+    flex-wrap: wrap;
+    
+    background-color: #F8FAFC;
+    .middle-content{
+        margin: 10px;
+        width: 60vw; 
+        margin-left: 260px;
+        background-color: white;
+        border-radius: 12px;
+    }
+
+
+}
+
+@media screen and (max-width: 800px) {
+    
+}
+

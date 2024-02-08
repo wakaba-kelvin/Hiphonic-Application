@@ -1,0 +1,10 @@
+.sidenav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 18vw;
+    height: 100vh;
+    overflow-y: scroll;
+    background-color: rgb(193, 16, 16);
+    padding: 5px;
+  }

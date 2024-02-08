@@ -1,0 +1,67 @@
+.photo-container{
+    display: flex;
+    flex-direction: column;
+    .photo-sub-titles{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 12px;
+        color: #64748B;
+        .photos-title-top{
+            display: flex;
+            gap: 25px;
+            font-size: 16px;
+            font-size: 700;
+            padding: 8px 16px;
+            .about-you-photos{
+                color:#2563EB;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                &::after{
+                    content: "";
+                    width: 176px;
+                    height: 4px;
+                    background-color: #2563EB;
+                    display: block; 
+                    margin-top: 5px;
+                    border-radius: 50px;
+                }
+            }
+          
+        }
+        .total-photos{
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            padding: 8px;
+        }
+    }
+    .photos-images{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        padding: 16px;
+
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .photo-sub-titles {
+        background-color:gold;
+        .photos-title-top {
+            flex-direction: column;
+            gap: 10px;
+            align-items: center;
+           
+        }
+    }
+
+    .photos-images {
+        justify-content: center;
+        
+    }
+}
+
+

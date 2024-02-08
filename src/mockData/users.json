@@ -1,0 +1,31 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "fullName": "Emmanuel Kipsang",
+        "email": "emmqnuelkipsqng@gmail.com",
+        "password": "@Emmanuel123"
+      },
+      {
+        "id": 2,
+        "fullName": "Jonathan Ndambuki",
+        "email": "jonathan@gmail.com",
+        "password": "@Jonathan123"
+      },
+      {
+        "id": 3,
+        "fullName": "Comba Kelvin",
+        "email": "comba@gmail.com",
+        "password": "@Comba123"
+      },
+      {
+        "id": 3,
+        "fullName": "Daniel Kitheka",
+        "email": "daniel@gmail.com",
+        "password": "@Daniel123"
+      }
+      
+    ]
+  }
+  
+

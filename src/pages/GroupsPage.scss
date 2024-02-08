@@ -1,0 +1,16 @@
+.main-right-content{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F8FAFC;
+    .middle-content{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    h2{
+        padding: 14px 0;
+    }
+    }
+
+
+}
+

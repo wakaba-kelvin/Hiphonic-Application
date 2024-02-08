@@ -1,0 +1,41 @@
+
+.Top{
+    width: 100%;
+   
+    .btn{
+        width: 100%;
+        height: 35vh;
+        background: url('../assets/profile-background.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: end;
+        .profile-btn{
+            margin: 20px;
+            padding: 0.5rem 2rem;
+            background-color: white;
+            border-radius: 5px;
+            border: none;
+            outline: none;           
+        }
+    }
+    .BackGround{
+        width: 100%;
+
+        .blueimage{
+            width: 100%;
+            .bg-img{
+                width: 100%;
+                
+            }
+            .avatar{
+                margin-top: -50px;
+                width: 10%;
+                margin-left: 50px;
+            }
+        }
+    }
+   
+}
+
+

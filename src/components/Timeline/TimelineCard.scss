@@ -1,0 +1,24 @@
+.timeContainer {
+    // background-color: white;
+    border-radius: 8px;
+    height: 100%;
+             
+.timeline-menu{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    // gap: 2rem;
+    border-radius: 8px;
+    // padding: 2rem;
+    .timelines{
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem;
+        
+    }
+    .timeline-heading{
+        padding: 2rem;
+        border-bottom: 2px solid #F1F5F9;
+        } 
+}  
+  }
